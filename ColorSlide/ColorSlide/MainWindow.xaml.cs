@@ -25,7 +25,7 @@ namespace ColorSlide
     public partial class MainWindow : Window
     {
         string currentColor="000000";
-        int _numberCount = 16;
+        int _numberCount = 1;
 
         public string CurrentColor { get => currentColor; set => currentColor = value; }
 
