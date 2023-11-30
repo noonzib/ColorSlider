@@ -1,0 +1,11 @@
+﻿<Application x:Class="ColorSlide.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ColorSlide"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <FontFamily x:Key="GothicA1">pack://application:,,,/Fonts/#GothicA1</FontFamily>
+        <SolidColorBrush x:Key="ForegroundColor" Color="White"/>
+
+    </Application.Resources>
+</Application>
